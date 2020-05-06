@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Layout from '../src/node_modules/containers/layout';
+import Layout from './';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Provider } from 'react-redux'
 import { ConnectedRouter } from 'connected-react-router'
@@ -19,5 +19,5 @@ ReactDOM.render(
       </>
     </ConnectedRouter>
   </Provider>,
-  document.getElementById('root')
+  document.getElementById('react-root')
 );

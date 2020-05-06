@@ -19,5 +19,5 @@ ReactDOM.render(
       </>
     </ConnectedRouter>
   </Provider>,
-  document.getElementById('root')
+  document.getElementById('react-root')
 );
