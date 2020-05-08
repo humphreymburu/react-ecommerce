@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import routes from './node_modules/routes'
+import Routes from './node_modules/routes'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Provider } from 'react-redux'
 import { ConnectedRouter } from 'connected-react-router'
@@ -15,7 +15,7 @@ ReactDOM.render(
       <> 
       { /* your usual react-router v4/v5 routing */ }
         
-      {routes}
+      <Routes/>
       </>
     </ConnectedRouter>
   </Provider>,

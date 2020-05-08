@@ -15,7 +15,7 @@ ReactDOM.render(
       <> 
       { /* your usual react-router v4/v5 routing */ }
         
-      {routes}
+      <routes/>
       </>
     </ConnectedRouter>
   </Provider>,
