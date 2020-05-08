@@ -1,4 +1,5 @@
 This project is a sample react ecommerce web app - Learning react
+
 To get the frontend running locally:
 
 - Clone this repo
